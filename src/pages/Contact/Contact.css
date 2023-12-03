@@ -1,0 +1,12 @@
+html[dir="rtl"] #contact label {
+  right: 13px;
+}
+
+form {
+  max-width: 100%;
+}
+
+input {
+  border: 2px solid var(--main-color);
+  width: 100%;
+}

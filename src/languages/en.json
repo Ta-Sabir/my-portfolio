@@ -1,0 +1,55 @@
+{
+  "navbar": {
+    "home": "Home",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "offers": "Offers",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "language": "Language",
+    "arabic": "ARABIC",
+    "english": "ENGLISH"
+  },
+  "home": {
+    "heading": "I BUILD BEAUTIFUL MODERN WEBSITES",
+    "subtitle": "I'm talhaoui saber | reactjs Developer",
+    "short-descrip": "Welcome to my personal website. You can take a look at my previous work, the techniques I use, and some of my information, and communicate with me or download my CV.",
+    "work-btn": "VIEW MY WORK",
+    "contact-btn": "CONTACT ME"
+  },
+
+  "skills": {
+    "heading": "02. Skills",
+    "section-descrip": "To create websites, I use the latest technologies in the world of design and development in order to achieve a result that satisfies my clients.",
+    "sub-section-title": "Certificate"
+  },
+  "portfolio": {
+    "heading": "03. Portfolio",
+    "section-descrip": "These are some of my works. To view the work, click on Live Preview, and to view the working code, click on GitHub Code.",
+    "preview": "Live Preview",
+    "githubCode": "Github code"
+  },
+
+  "contact": {
+    "heading": "05. Contact",
+    "section-descrip": " If you have any suggestion, project or even you want to say Hello. please fill out the form below and I will reply you shortly.",
+    "form": {
+      "name": "NAME",
+      "email": "EMAIL",
+      "phone": "PHONE",
+      "subject": "SUBJECT",
+      "message": "MESSAGE"
+    },
+    "send-btn": "Send Message"
+  },
+  "error": {
+    "section-title": "Oooops ! This page not found"
+  },
+
+  "sidebar": {
+    "name": "TALHAOUI SABIR",
+    "position": "REACTJS DEVELOPER",
+    "bio": "A programmer and freelancer with one year of experience in front-end development. I have developed multiple previous projects where I worked on designing and developing user interfaces using the React framework. You can see my previous projects and the code that I have created.",
+    "download-cv-btn": "Download CV"
+  }
+}

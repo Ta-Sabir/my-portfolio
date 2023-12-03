@@ -1,0 +1,26 @@
+aside {
+  border-top: 6px solid #e8e8f1;
+  margin-top: 60px;
+}
+
+@media (min-width: 1280px) {
+  aside {
+    border-left: 6px solid #e8e8f1;
+    border-top: none;
+    margin-top: 0;
+  }
+}
+
+html[dir="rtl"] aside {
+  border-right: 6px solid #e8e8f1;
+  border-left: none;
+}
+
+aside .social-media li {
+  transition: 0.4s;
+}
+
+html[dir="rtl"] aside .about-me .avilable {
+  left: 25px;
+  right: inherit;
+}

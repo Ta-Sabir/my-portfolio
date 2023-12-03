@@ -1,0 +1,162 @@
+/* DELICIOUS HANDRAWN FONT  */
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+
+/* POPPINS FONT */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/* ALEXANDRIA FONT */
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700;800;900&display=swap");
+
+/* CAIRO FONT */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700;800;900;1000&display=swap");
+
+.cario {
+  font-family: "Cairo", sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-color: #0072d3;
+  --white-color: #fff;
+  --main-transition: 0.5s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+html[dir="ltr"] {
+  font-family: "Poppins", sans-serif !important;
+}
+
+html[dir="rtl"] {
+  font-family: "Alexandria", sans-serif !important;
+}
+
+.section-container {
+  padding-left: 90px;
+  padding-right: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 767px) {
+  .section-container {
+    padding-left: 25px;
+    padding-right: 5px;
+  }
+}
+
+html[dir="rtl"] .section-container {
+  padding-left: 45px;
+  padding-right: 90px;
+}
+
+@media (max-width: 767px) {
+  html[dir="rtl"] .section-container {
+    padding-left: 5px;
+    padding-right: 15px;
+  }
+}
+
+section {
+  animation-name: showSection;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes showSection {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+button {
+  border-color: var(--main-color);
+  border-width: 2px;
+  border-radius: 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--main-color);
+  font-weight: 500;
+}
+
+button:focus {
+  box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.25);
+}
+
+input:focus {
+  outline: none;
+}
+
+.transition-all {
+  transition: var(--main-transition);
+}
+
+/* START SECTION TITLE */
+.section-title .title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--main-color);
+}
+
+.section-title span {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.section-title h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section-title p {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.8;
+  margin: 10px 0;
+  color: #000000a9;
+}
+
+html[dir="rtl"] .section-title p {
+  font-weight: 800;
+  font-family: "Cairo", sans-serif;
+}
+
+/* END SECTION TITLE */
+
+/* SATRT ANIMATON */
+.animation {
+  animation: animation 0.5s;
+}
+
+@keyframes animation {
+  0% {
+    scale: 0;
+  }
+
+  50% {
+    scale: 1.1;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
+
+/* END ANIMATON */

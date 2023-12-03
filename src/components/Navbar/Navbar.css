@@ -1,0 +1,74 @@
+html[dir="rtl"] .navbar {
+  font-family: "Cairo", sans-serif;
+}
+
+.navbar .navbar-brand a.logo {
+  font-family: "Delicious Handrawn", cursive;
+}
+
+.navbar .navbar-end {
+  position: relative;
+}
+
+.navbar .navbar-end .languages-dorpdown {
+  position: absolute;
+  top: 65px;
+  left: 10px;
+  width: 135px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0.5em 1em -0.125em #0a0a0a1a, 0 0 0 1px #0a0a0a05;
+  padding: 10px 0;
+  transform: translateY(-13px);
+  animation: saber 0.3s;
+}
+
+@media (max-width: 767px) {
+  .navbar .navbar-end .languages-dorpdown {
+    top: 58px;
+    left: -8px !important;
+  }
+}
+
+@keyframes saber {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-13px);
+  }
+}
+
+html[dir="rtl"] .navbar .navbar-end .languages-dorpdown {
+  left: -35px;
+}
+
+.navbar .navbar-end .languages-dorpdown .dropdown-item:hover {
+  transform: translateX(8px);
+}
+
+html[dir="rtl"] .navbar .navbar-end .languages-dorpdown .dropdown-item:hover {
+  transform: translateX(-8px);
+}
+
+.navbar .phone-menu {
+  backdrop-filter: blur(1.4px);
+}
+
+.navbar .phone-menu .phone-menu-content {
+  backdrop-filter: blur(1.4px);
+  box-shadow: 0 0.3rem 2em 0.4rem #0a0a0a1a, 0 0 0 1px #0a0a0a05;
+}
+
+html[dir="rtl"] .navbar .close-icon {
+  text-align: left;
+}
+
+.navbar .close-icon button {
+  transition: var(--main-transition);
+}
+
+.phone-menu-content a:hover {
+  margin-right: 6px;
+}

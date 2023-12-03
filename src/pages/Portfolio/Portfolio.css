@@ -1,0 +1,22 @@
+#portfolio .portfolio-container .portfolio-item {
+  box-shadow: 0 0.5em 2em -0.125em #0a0a0a1a, 0 0 0 1px #0a0a0a05;
+}
+#portfolio img {
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid hsl(0, 0%, 93%);
+}
+.card-footer a {
+  position: relative;
+}
+.card-footer a::before {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  width: 0;
+  height: 3px;
+  background-color: var(--main-color);
+  transition: var(--main-transition);
+}
+.card-footer a:hover::before {
+  width: 100%;
+}
