@@ -65,11 +65,11 @@ export const socialMedia = [
     icon: "icon-github",
     link: "https://github.com/Ta-Sabir",
   },
-  // {
-  //   id: "social-media-6",
-  //   icon: "icon-whatsapp",
-  //   link: "https://www.linkedin.com/",
-  // },
+  {
+    id: "social-media-6",
+    icon: "icon-whatsapp",
+    link: "",
+  },
   {
     id: "social-media-7",
     icon: "icon-telegram",
