@@ -37,7 +37,7 @@ const Sidebar = () => {
               key={item.id}
               className={`${styles.flexCenter} w-[40px] h-[40px] rounded-[4px] bg-[#ecececfa] hover:bg-[var(--main-color)] text-[var(--main-color)] hover:text-[#FFF] text-[20px] cursor-pointer`}
             >
-              <a href={item.link} className={item.icon}></a>
+              <a href={item.link} className={item.icon} target="__blank"></a>
             </li>
           );
         })}
