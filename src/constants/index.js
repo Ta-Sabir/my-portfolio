@@ -50,35 +50,35 @@ export const socialMedia = [
     icon: "icon-instagram",
     link: "https://www.instagram.com/saberr_mostaa/",
   },
-  {
-    id: "social-media-3",
-    icon: "icon-x1",
-    link: "https://www.twitter.com/",
-  },
+  // {
+  //   id: "social-media-3",
+  //   icon: "icon-x1",
+  //   link: "https://www.twitter.com/",
+  // },
   {
     id: "social-media-4",
     icon: "icon-linkedin2",
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/saber-talhaoui-214106262/",
   },
   {
     id: "social-media-5",
     icon: "icon-github",
-    link: "https://github.com/",
+    link: "https://github.com/Ta-Sabir",
   },
-  {
-    id: "social-media-6",
-    icon: "icon-whatsapp",
-    link: "https://www.linkedin.com/",
-  },
+  // {
+  //   id: "social-media-6",
+  //   icon: "icon-whatsapp",
+  //   link: "https://www.linkedin.com/",
+  // },
   {
     id: "social-media-7",
     icon: "icon-telegram",
-    link: "https://www.linkedin.com/",
+    link: "https://t.me/sabertlh",
   },
   {
     id: "social-media-8",
     icon: "icon-mail",
-    link: "https://www.linkedin.com/",
+    link: "mailto:talhaoui.sabir@gmail.com",
   },
 ];
 // END SCOIAL MEDIA SIDEBAR
