@@ -9,11 +9,11 @@ aside {
     border-top: none;
     margin-top: 0;
   }
-}
-
-html[dir="rtl"] aside {
+  
+  html[dir="rtl"] aside {
   border-right: 6px solid #e8e8f1;
   border-left: none;
+}
 }
 
 aside .social-media li {
