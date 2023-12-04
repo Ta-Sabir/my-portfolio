@@ -61,7 +61,7 @@ const Contact = () => {
               <input
                 type="email"
                 name="email"
-                className="border-[2px] border-[var(--main-color)] p-[12px] text-[15px] font-bold cario rounded-[4px]"
+                className="text-[#000000a9] border-[2px] border-[var(--main-color)] p-[12px] text-[15px] font-bold cario rounded-[4px]"
               />
               <ValidationError
                 prefix="Email"
@@ -83,7 +83,7 @@ const Contact = () => {
               <input
                 type="text"
                 name="phone"
-                className="focus border-[2px] border-[var(--main-color)] p-[12px] text-[15px] font-bold cario rounded-[4px]"
+                className="focus text-[#000000a9] border-[2px] border-[var(--main-color)] p-[12px] text-[15px] font-bold cario rounded-[4px]"
               />
               <ValidationError
                 prefix="Phone"
@@ -101,7 +101,7 @@ const Contact = () => {
               <input
                 type="text"
                 name="subject"
-                className="border-[2px] border-[var(--main-color)] p-[12px] text-[15px] font-bold cario rounded-[4px]"
+                className="text-[#000000a9] border-[2px] border-[var(--main-color)] p-[12px] text-[15px] font-bold cario rounded-[4px]"
               />
               <ValidationError
                 prefix="Subject"
@@ -124,7 +124,7 @@ const Contact = () => {
                 // @ts-ignore
                 rows="7"
                 name="message"
-                className="border-[2px] border-[var(--main-color)] p-[12px] text-[15px] font-bold cario rounded-[4px] w-full focus:outline-none"
+                className="text-[#000000a9] border-[2px] border-[var(--main-color)] p-[12px] text-[15px] font-bold cario rounded-[4px] w-full focus:outline-none"
               />
               <ValidationError
                 prefix="Message"
