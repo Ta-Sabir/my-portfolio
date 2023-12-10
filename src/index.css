@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 /* ALEXANDRIA FONT */
-@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@200;300;400;500;600;700;800;900&display=swap");
 
 /* CAIRO FONT */
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700;800;900;1000&display=swap");
@@ -39,7 +39,7 @@ html[dir="ltr"] {
 }
 
 html[dir="rtl"] {
-  font-family: "Alexandria", sans-serif !important;
+  font-family: "Noto Kufi Arabic", sans-serif;
 }
 
 .section-container {
@@ -117,25 +117,19 @@ input:focus {
 
 .section-title span {
   font-size: 20px;
-  margin-bottom: 5px;
 }
 
 .section-title h2 {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 900;
+  font-family: "Cairo", sans-serif;
 }
 
 .section-title p {
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 600;
   line-height: 1.8;
   margin: 10px 0;
-  color: #000000a9;
-}
-
-html[dir="rtl"] .section-title p {
-  font-weight: 800;
-  font-family: "Cairo", sans-serif;
 }
 
 /* END SECTION TITLE */
