@@ -41,7 +41,7 @@ const Home = () => {
               className={`${styles.flex} gap-[8px] text-[var(--main-color)] cursor-pointer`}
             >
               <span className="icon-mail mb-[3px]"></span>
-              <p className="text-[16px] font-semibold cario">
+              <p className="text-[16px] font-semibold">
                 {t("home.contact-btn")}
               </p>
             </a>
