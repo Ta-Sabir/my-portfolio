@@ -20,10 +20,10 @@ const Home = () => {
           <h1 className="text-[var(--main-color)] text-[41px] text-[49px] xl:text-[68px] font-black">
             {t("home.heading")}
           </h1>
-          <h3 className="text-[#fe9c15] text-[15px] lg:text-[18px] font-bold mt-[10px]">
+          <h3 className="text-[#ffb752] text-[15px] lg:text-[22px] font-semibold mt-[5px]">
             {t("home.subtitle")}
           </h3>
-          <p className="text-[#000000a9] text-[14px] lg:text-[16px] font-medium mt-[13px] leading-loose">
+          <p className="text-[#676363] text-[15px] lg:text-[17px] font-semibold mt-[10px] leading-loose">
             {t("home.short-descrip")}
           </p>
           <div className={`buttons ${styles.flex} gap-6 mt-[20px]`}>
@@ -32,14 +32,16 @@ const Home = () => {
               className={`${styles.flex} gap-[8px] bg-[var(--main-color)] text-[var(--white-color)] rounded-full py-[11px] px-[20px] cursor-pointer`}
             >
               <span className="icon-briefcase"></span>
-              <p className="text-[16px] font-semibold">{t("home.work-btn")}</p>
+              <p className="text-[16px] font-semibold cario">
+                {t("home.work-btn")}
+              </p>
             </a>
             <a
               href="/contact"
               className={`${styles.flex} gap-[8px] text-[var(--main-color)] cursor-pointer`}
             >
               <span className="icon-mail mb-[3px]"></span>
-              <p className="text-[16px] font-semibold">
+              <p className="text-[16px] font-semibold cario">
                 {t("home.contact-btn")}
               </p>
             </a>
