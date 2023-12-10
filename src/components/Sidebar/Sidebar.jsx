@@ -44,7 +44,7 @@ const Sidebar = () => {
       </ul>
       <button className="flex items-center justify-between gap-1 p-[9px] w-fit mx-auto my-[8px] bg-[var(--main-color)] hover:bg-[var(--white-color)] text-[var(--white-color)] hover:text-[var(--main-color)] text-[15px] font-semibold hover:scale-[1.01] hover:translate-y-[-4px] rounded-full transition-all">
         {t("sidebar.download-cv-btn")}
-        <span className="icon-save_alt text-[20px] cario"></span>
+        <span className="icon-save_alt text-[20px]"></span>
       </button>
       <figure className="signature w-[200px] mx-auto">
         <img src={Signature} alt="Signature" />
