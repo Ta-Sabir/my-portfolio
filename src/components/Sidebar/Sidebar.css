@@ -24,3 +24,8 @@ html[dir="rtl"] aside .about-me .avilable {
   left: 25px;
   right: inherit;
 }
+
+h2,
+h4 {
+  font-family: "Cairo", sans-serif;
+}
