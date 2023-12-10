@@ -26,7 +26,7 @@ const Sidebar = () => {
         <h4 className="text-[var(--main-color)] font-semibold">
           {t("sidebar.position")}
         </h4>
-        <p className="bio text-[#000000b5] font-semibold text-[16px] leading-[1.8] my-[5px]">
+        <p className="bio text-[#676363] font-semibold text-[16px] leading-[1.8] my-[5px]">
           {t("sidebar.bio")}
         </p>
       </div>
@@ -44,7 +44,7 @@ const Sidebar = () => {
       </ul>
       <button className="flex items-center justify-between gap-1 p-[9px] w-fit mx-auto my-[8px] bg-[var(--main-color)] hover:bg-[var(--white-color)] text-[var(--white-color)] hover:text-[var(--main-color)] text-[15px] font-semibold hover:scale-[1.01] hover:translate-y-[-4px] rounded-full transition-all">
         {t("sidebar.download-cv-btn")}
-        <span className="icon-save_alt text-[20px]"></span>
+        <span className="icon-save_alt text-[20px] cario"></span>
       </button>
       <figure className="signature w-[200px] mx-auto">
         <img src={Signature} alt="Signature" />
