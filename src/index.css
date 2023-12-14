@@ -13,6 +13,7 @@
 .cario {
   font-family: "Cairo", sans-serif;
 }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -39,7 +40,7 @@ html[dir="ltr"] {
 }
 
 html[dir="rtl"] {
-  font-family: "Noto Kufi Arabic", sans-serif;
+  font-family: "Cairo", sans-serif;
 }
 
 .section-container {
