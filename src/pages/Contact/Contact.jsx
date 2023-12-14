@@ -52,7 +52,7 @@ const Contact = () => {
               />
               <label
                 htmlFor="name"
-                className="label text-[var(--main-color)] text-[15px] font-bold absolute top-[-10px] left-[13px] bg-[var(--white-color)] w-fit px-[7px] transition-all"
+                className="label text-[var(--main-color)] text-[15px] font-black absolute top-[-10px] left-[13px] bg-[var(--white-color)] w-fit px-[7px] transition-all"
               >
                 {t("contact.form.name")}
               </label>
@@ -70,7 +70,7 @@ const Contact = () => {
               />
               <label
                 htmlFor="email"
-                className="text-[var(--main-color)] text-[15px] font-bold absolute top-[-10px] left-[13px] bg-[var(--white-color)] w-fit px-[7px] transition-all"
+                className="text-[var(--main-color)] text-[15px] font-black absolute top-[-10px] left-[13px] bg-[var(--white-color)] w-fit px-[7px] transition-all"
               >
                 {t("contact.form.email")}
               </label>
@@ -92,7 +92,7 @@ const Contact = () => {
               />
               <label
                 htmlFor="phone"
-                className="text-[var(--main-color)] text-[15px] font-bold absolute top-[-10px] left-[13px] bg-[var(--white-color)] w-fit px-[7px] transition-all"
+                className="text-[var(--main-color)] text-[15px] font-black absolute top-[-10px] left-[13px] bg-[var(--white-color)] w-fit px-[7px] transition-all"
               >
                 {t("contact.form.phone")}
               </label>
@@ -110,7 +110,7 @@ const Contact = () => {
               />
               <label
                 htmlFor="subject"
-                className="text-[var(--main-color)] text-[15px] font-bold absolute top-[-10px] left-[13px] bg-[var(--white-color)] w-fit px-[7px] transition-all"
+                className="text-[var(--main-color)] text-[15px] font-black absolute top-[-10px] left-[13px] bg-[var(--white-color)] w-fit px-[7px] transition-all"
               >
                 {t("contact.form.subject")}
               </label>
@@ -133,7 +133,7 @@ const Contact = () => {
               />
               <label
                 htmlFor="message"
-                className="text-[var(--main-color)] text-[15px] font-bold absolute top-[-10px] left-[13px] bg-[var(--white-color)] w-fit px-[7px] transition-all"
+                className="text-[var(--main-color)] text-[15px] font-black absolute top-[-10px] left-[13px] bg-[var(--white-color)] w-fit px-[7px] transition-all"
               >
                 {t("contact.form.message")}
               </label>
