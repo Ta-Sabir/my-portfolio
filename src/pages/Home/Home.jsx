@@ -24,7 +24,7 @@ const Home = () => {
           <h3 className="text-[#ffb44b] text-[15px] lg:text-[19px] font-semibold mt-[5px]">
             {t("home.subtitle")}
           </h3>
-          <p className="text-[#676363] text-[15px] lg:text-[17px] font-semibold mt-[10px] leading-loose">
+          <p className="text-[#676363] text-[16px] lg:text-[17px] font-semibold mt-[10px] leading-[2]">
             {t("home.short-descrip")}
           </p>
           <div className={`buttons ${styles.flex} gap-6 mt-[20px]`}>
