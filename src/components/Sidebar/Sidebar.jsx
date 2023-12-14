@@ -26,7 +26,7 @@ const Sidebar = () => {
         <h4 className="text-[var(--main-color)] font-semibold">
           {t("sidebar.position")}
         </h4>
-        <p className="bio text-[#676363] font-semibold text-[16px] leading-[1.8] my-[5px]">
+        <p className="bio text-[#676363] font-semibold text-[17px] leading-[2] my-[5px]">
           {t("sidebar.bio")}
         </p>
       </div>
