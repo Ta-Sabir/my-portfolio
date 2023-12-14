@@ -52,7 +52,7 @@ html[dir="rtl"] {
 
 @media (max-width: 767px) {
   .section-container {
-    padding-left: 25px;
+    padding-left: 15px;
     padding-right: 5px;
   }
 }
