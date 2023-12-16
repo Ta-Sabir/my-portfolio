@@ -21,7 +21,7 @@ const Home = () => {
           <h1 className="text-[var(--main-color)] text-[41px] text-[49px] xl:text-[68px] font-black">
             {t("home.heading")}
           </h1>
-          <h3 className="text-[#ffb44b] text-[15px] lg:text-[19px] font-semibold mt-[5px]">
+          <h3 className="text-[#ffb44b] text-[15px] lg:text-[19px] font-extrabold mt-[5px]">
             {t("home.subtitle")}
           </h3>
           <p className="text-[#676363] text-[16px] lg:text-[17px] font-semibold mt-[10px] leading-[2]">
