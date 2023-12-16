@@ -93,7 +93,7 @@ button {
   font-size: 16px;
   text-transform: uppercase;
   color: var(--main-color);
-  font-weight: 500;
+  font-weight: 700;
 }
 
 button:focus {
