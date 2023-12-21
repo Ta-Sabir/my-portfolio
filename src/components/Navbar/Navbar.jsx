@@ -39,7 +39,7 @@ const Navbar = () => {
               <NavLink
                 to={item.id === "home" ? "/" : item.id}
                 key={item.id}
-                className="text-[20px] font-bold text-[var(--main-color)]"
+                className="text-[20px] text-[var(--main-color)]"
               >
                 {t(`navbar.${item.id}`)}
               </NavLink>
