@@ -31,6 +31,7 @@ import cert4 from "./images/Certifactes/cert 4.png";
 import teamsoftproject from "./images/Portfolio/teamsoft-project.png";
 import hoobankproject from "./images/Portfolio/hoobank-project.png";
 import algeriaproject from "./images/Portfolio/algeria-project.png";
+import po3 from "./images/Portfolio/po3.png";
 // END PORTFOLIO IMAGES
 
 export {
