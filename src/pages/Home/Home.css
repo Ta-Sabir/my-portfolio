@@ -1,4 +1,12 @@
 html[dir="rtl"] #home .home-content > h1 ,
-.buttons p {
+ {
   font-family: "Cairo", sans-serif;
+}
+
+.buttons p {
+  font-family: Cairo,sans-serif; 
+}
+
+html[dir="rtl"] .buttons p {
+  font-family: Poppins,sans-serif; 
 }
