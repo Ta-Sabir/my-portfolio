@@ -15,6 +15,7 @@ import {
   teamsoftproject,
   hoobankproject,
   algeriaproject,
+  po3,
 } from "../assets/index";
 
 // START NAV LINKS
@@ -157,6 +158,13 @@ export const portfolioCards = [
   {
     id: "portfolio-card-2",
     img: hoobankproject,
+    title: "HOOBANK LANDING PAGE",
+    link: "https://hoobank-website.vercel.app/",
+    github: "https://github.com/Ta-Sabir/hoobank",
+  },
+    {
+    id: "portfolio-card-2",
+    img: po3,
     title: "HOOBANK LANDING PAGE",
     link: "https://hoobank-website.vercel.app/",
     github: "https://github.com/Ta-Sabir/hoobank",
