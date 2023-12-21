@@ -33,7 +33,7 @@ const Home = () => {
               className={`${styles.flex} gap-[8px] bg-[var(--main-color)] text-[var(--white-color)] rounded-full py-[11px] px-[20px] cursor-pointer`}
             >
               <span className="icon-briefcase"></span>
-              <p className="text-[16px] font-semibold cario">
+              <p className="text-[16px] font-bold cario">
                 {t("home.work-btn")}
               </p>
             </NavLink>
@@ -42,7 +42,7 @@ const Home = () => {
               className={`${styles.flex} gap-[8px] text-[var(--main-color)] cursor-pointer`}
             >
               <span className="icon-mail mb-[3px]"></span>
-              <p className="text-[16px] font-semibold cario">
+              <p className="text-[16px] font-bold cario">
                 {t("home.contact-btn")}
               </p>
             </NavLink>
