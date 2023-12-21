@@ -161,12 +161,5 @@ export const portfolioCards = [
     link: "https://hoobank-website.vercel.app/",
     github: "https://github.com/Ta-Sabir/hoobank",
   },
-  {
-    id: "portfolio-card-3",
-    img: algeriaproject,
-    title: "Algerian national team landing",
-    link: "https://ta-sabir.github.io/Algerian-national-team/",
-    github: "https://github.com/Ta-Sabir/Algerian-national-team",
-  },
 ];
 // END PORTFOLIO SECTION
