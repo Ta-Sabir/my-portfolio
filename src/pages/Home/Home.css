@@ -4,9 +4,9 @@ html[dir="rtl"] #home .home-content > h1 ,
 }
 
 .buttons p {
-  font-family: Cairo,sans-serif; 
+  font-family: Poppins,sans-serif; 
 }
 
 html[dir="rtl"] .buttons p {
-  font-family: Poppins,sans-serif; 
+  font-family: Cairo,sans-serif; 
 }
