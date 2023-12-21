@@ -69,6 +69,13 @@ html[dir="rtl"] .navbar .close-icon {
   transition: var(--main-transition);
 }
 
+.navbar-menu a {
+  font-weight: 500;
+}
+
+html[dir="rtl"] .navbar-menu a {
+    font-weight: 700;
+}
 .phone-menu-content a:hover {
   margin-right: 6px;
 }
