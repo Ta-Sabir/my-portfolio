@@ -26,11 +26,16 @@ html[dir="rtl"] aside .about-me .avilable {
 }
 
 aside button {
-   font-family: Poppins,sans-serif; 
+  font-family: Poppins,sans-serif; 
+  font-weight: 600;
 }
 
+html[dir="rtl"] aside button {
+  font-family: "Cairo", sans-serif;
+  font-weight: 700;
+}
 h2,
 h4 ,
-html[dir="rtl"] aside button {
+ {
   font-family: "Cairo", sans-serif;
 }
