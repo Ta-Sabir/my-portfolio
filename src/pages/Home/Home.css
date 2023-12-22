@@ -5,10 +5,15 @@ html[dir="rtl"] #home .home-content > h1 ,
 
 .buttons p {
   font-family: Poppins,sans-serif; 
- font-weight: 600;
+  font-weight: 600;
 }
 
 html[dir="rtl"] .buttons p {
   font-family: Cairo,sans-serif; 
   font-weight: 700;
+}
+
+@media (max-width:390px) {
+  .buttons {
+   display: block;
 }
