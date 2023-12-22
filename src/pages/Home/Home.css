@@ -13,7 +13,14 @@ html[dir="rtl"] .buttons p {
   font-weight: 700;
 }
 
-@media (max-width:390px) {
+@media (max-width:400px) {
   .buttons {
     display: block !important;
+    width: fit-content;
+  }
+  .buttons a:last-child {
+   margin-top: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
 }
