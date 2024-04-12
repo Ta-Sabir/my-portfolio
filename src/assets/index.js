@@ -32,6 +32,7 @@ import teamsoftproject from "./images/Portfolio/teamsoft-project.png";
 import hoobankproject from "./images/Portfolio/hoobank-project.png";
 import algeriaproject from "./images/Portfolio/algeria-project.png";
 import po3 from "./images/Portfolio/po3.png";
+import project4 from "./images/Portfolio/project4.png";
 // END PORTFOLIO IMAGES
 
 export {
@@ -43,4 +44,5 @@ export {
   hoobankproject,
   algeriaproject,
   po3,
+  project4
 };
