@@ -38,11 +38,12 @@ const Portfolio = () => {
                   </figure>
                 </div>
                 <div className="card-footer p-[15px] pt-0">
-
-                  <div className={`${styles.flex} gap-2 mt-[8px]`}>
-                                      <h3 className="text-[var(--main-color)] text-[15px] text-center font-semibold mt-[10px]">
-                    {item.title}
-                  </h3>
+                  <div
+                    className={`${styles.flex} justify-between gap-2 mt-[20px]`}
+                  >
+                    <h3 className="text-[var(--main-color)] text-[15px] text-center font-semibold ">
+                      {item.title}
+                    </h3>
                     <a
                       href={item.link}
                       target="__blank"
@@ -53,13 +54,12 @@ const Portfolio = () => {
                         stroke="currentColor"
                         fill="currentColor"
                         stroke-width="0"
-                        viewBox="0 0 24 24"
-                        height="1rem"
-                        width="1rem"
+                        viewBox="0 0 320 512"
+                        height="1em"
+                        width="1em"
                         xmlns="http://www.w3.org/2000/svg"
                       >
-                        <path d="m13 3 3.293 3.293-7 7 1.414 1.414 7-7L21 11V3z"></path>
-                        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"></path>
+                        <path d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path>
                       </svg>
                     </a>
                   </div>
