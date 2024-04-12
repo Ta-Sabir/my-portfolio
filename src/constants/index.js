@@ -167,7 +167,6 @@ export const portfolioCards = [
     title: "Doctori",
     link: "https://doctori.vercel.app",
   },
-    },
     {
     id: "portfolio-card-2",
     img: project4,
