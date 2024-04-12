@@ -153,21 +153,18 @@ export const portfolioCards = [
     img: teamsoftproject,
     title: "TEAMSOFT LANDING PAGE",
     link: "https://team-soft.vercel.app/",
-    github: "https://github.com/Ta-Sabir/teamsoft",
   },
   {
     id: "portfolio-card-2",
     img: hoobankproject,
     title: "HOOBANK LANDING PAGE",
     link: "https://hoobank-website.vercel.app/",
-    github: "https://github.com/Ta-Sabir/hoobank",
   },
     {
     id: "portfolio-card-2",
     img: po3,
-    title: "HOOBANK LANDING PAGE",
-    link: "https://hoobank-website.vercel.app/",
-    github: "https://github.com/Ta-Sabir/hoobank",
+    title: "Doctori",
+    link: "https://doctori.vercel.app/best-doctors",
   },
 ];
 // END PORTFOLIO SECTION
