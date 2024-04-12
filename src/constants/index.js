@@ -164,7 +164,7 @@ export const portfolioCards = [
     id: "portfolio-card-2",
     img: po3,
     title: "Doctori",
-    link: "https://doctori.vercel.app/best-doctors",
+    link: "https://doctori.vercel.app",
   },
 ];
 // END PORTFOLIO SECTION
