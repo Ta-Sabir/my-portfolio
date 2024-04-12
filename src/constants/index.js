@@ -16,6 +16,7 @@ import {
   hoobankproject,
   algeriaproject,
   po3,
+  project4,
 } from "../assets/index";
 
 // START NAV LINKS
@@ -165,6 +166,13 @@ export const portfolioCards = [
     img: po3,
     title: "Doctori",
     link: "https://doctori.vercel.app",
+  },
+    },
+    {
+    id: "portfolio-card-2",
+    img: project4,
+    title: "Souk Rak",
+    link: "https://www.behance.net/",
   },
 ];
 // END PORTFOLIO SECTION
