@@ -5,18 +5,4 @@
   border-radius: 10px 10px 0 0;
   border-bottom: 1px solid hsl(0, 0%, 93%);
 }
-.card-footer a {
-  position: relative;
-}
-.card-footer a::before {
-  content: "";
-  position: absolute;
-  bottom: -4px;
-  width: 0;
-  height: 3px;
-  background-color: var(--main-color);
-  transition: var(--main-transition);
-}
-.card-footer a:hover::before {
-  width: 100%;
-}
+
