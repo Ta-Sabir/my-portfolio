@@ -167,11 +167,11 @@ export const portfolioCards = [
     title: "Doctori",
     link: "https://doctori.vercel.app",
   },
-  //   {
-  //   id: "portfolio-card-2",
-  //   img: project4,
-  //   title: "Souk Rak",
-  //   link: "https://www.behance.net/",
-  // },
+    {
+    id: "portfolio-card-2",
+    img: project4,
+    title: "Souq Rak E-commerce",
+    link: "https://www.behance.net/",
+  },
 ];
 // END PORTFOLIO SECTION
